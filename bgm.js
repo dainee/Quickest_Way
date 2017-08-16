@@ -135,7 +135,7 @@ var msstart = $("#start-input").val();
           error: function() { console.log('Uh Oh!'); },
         jsonp: 'jsonp'  
         }).done(function(answer) {
-           var distance = answer.resourceSets[0].resources[0].travelDistance;
+           var distance = Math.floor(0.621371 * (answer.resourceSets[0].resources[0].travelDistance));
            var duration = answer.resourceSets[0].resources[0].travelDuration;
            var hours = Math.floor((duration/60)/60) + " hours "
            var minutes = Math.floor((duration/60) % 60) + " mins"
