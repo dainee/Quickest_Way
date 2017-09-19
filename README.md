@@ -18,8 +18,8 @@ QuickestWay is an app that uses 3 APIs (Google Maps, Bing Maps, and MapQuest) to
 ### Screenshots
 
 - Main Page
-  * (/screenshots/main.png)
+  * ![Main View](/screenshots/main.png)
 
 
 - Page after the user searched the starting/end point
-  * (/screenshots/search.png)
+  * ![Search View](/screenshots/search.png)
